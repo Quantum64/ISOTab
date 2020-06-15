@@ -1,0 +1,10 @@
+{
+  "name": "ISO Tab",
+  "description": "ISO timestamp new tab page",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": ["management"],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
